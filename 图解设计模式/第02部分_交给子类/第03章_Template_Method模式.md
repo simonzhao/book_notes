@@ -4,6 +4,7 @@
 
 ## 示例程序
 
+```Java
     public abstract class AbstractDisplay {
         public abstract void open();
         public abstract void print();
@@ -76,7 +77,8 @@
             d2.display();
         }
     }
-    
+```  
+ 
     <<HHHHH>>           -> d1的显示结果
     +-------------+     -> d2的显示结果
     |Hello, world.|

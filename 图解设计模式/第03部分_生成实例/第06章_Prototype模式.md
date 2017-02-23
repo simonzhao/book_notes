@@ -15,6 +15,7 @@
 
 ## 示例程序
 
+```Java
     //framework/Product.java
     package framework;
     public interface Product extends Cloneable {
@@ -147,7 +148,7 @@
     / Hello, world /   <- p3.use
     ////////////////
     */
-
+```
 
 ## 角色
 * Prototype（原型）

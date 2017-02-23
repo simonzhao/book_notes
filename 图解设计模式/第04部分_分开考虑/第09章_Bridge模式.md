@@ -37,6 +37,7 @@
 ## 示例程序
 ### 类的功能层次结构 Display类
 
+```java
 	//Display.java
 	public class Display {
 		private DisplayImpl impl;
@@ -63,9 +64,11 @@
 			close();
 		}
 	}
+```
 	
 ### 类的功能层次结构 CountDisplay类
 
+```java
 	public class Countdisplay extends Display {
 		public CountDisplay(DisplayImpl impl) {
 			super(impl);
@@ -79,17 +82,21 @@
 			close();
 		}
 	}
+```
 	
 ### 类的实现层次结构 DisplayImpl类
 
+```java
 	public abstract class DisplayImpl {
 		public abstract void rawOpen();
 		public abstract void rawPrint();
 		public abstract void rawClose();
 	}
+```
 	
 ### 类的实现层次结构 StringDisplayImpl类
 
+```java
 	public class StringDisplayImpl extends DisplayImpl {
 		private String string;
 		private int width;
@@ -119,6 +126,7 @@
 			System.out.println("+");
 		}
 	}
+```
 	
 ### Main类
 

@@ -14,6 +14,7 @@
 
 将带有层次关系的链接的集合制作成html文件。
 
+```html
     <html>
         <head>
             <title>LinkPage</title>
@@ -103,14 +104,14 @@
            <address>杨文轩</address>
        </body>
     </html>
-
+```
 
     包：
         1. factory包： 包含抽象工厂，零件，产品
         2. 无：包含Main类
         3. listfactory包：包含具体工厂、零件、产品的包
 
-    
+ ```Java
     /**
      * 抽象的零件 Item
      * 是Link类和Tray类的父类，
@@ -430,6 +431,7 @@
             return buffer.toString();
         }
     }
+```
 
 ## 角色
 * AbstractProduct（抽象产品）

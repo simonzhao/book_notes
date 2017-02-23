@@ -4,6 +4,7 @@
 
 ## 示例程序
 
+```Java
     //Builder.java
     public abstract class Builder {
         public abstract void makeTitle(String title);
@@ -139,6 +140,7 @@
             System.out.println("Usage java Main html 编写html文档");
         }
     }
+```
     
 ## 角色
 * Builder(建造者)

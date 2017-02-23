@@ -11,6 +11,8 @@
 * 对象适配器模式（使用委托的适配器）
 
 #### 类适配器模式示例程序
+
+```Java
     pulbic class Banner {
         private String string;
         
@@ -53,8 +55,11 @@
             p.printStrong();//*Hello*
         }
     }
+ ```
     
 #### 对象适配器模式示例程序
+
+```Java
     public abstract class Print {
         public abstract void printWeak();
         public abstract void printStrong();
@@ -75,6 +80,7 @@
             banner.showWithAster();
         }
     }
+ ```
     
 ### Adapter模式中的角色
 * Target（对象）

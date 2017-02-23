@@ -7,6 +7,7 @@
 
 ## 示例程序
 
+```Java
     //Singleton.java
     public class Singleton {
         private static Singleton singleton = new Singleton();
@@ -35,6 +36,7 @@
             System.out.println("End.")
         }
     }
+ ```
     
 ## 角色
 * Singleton

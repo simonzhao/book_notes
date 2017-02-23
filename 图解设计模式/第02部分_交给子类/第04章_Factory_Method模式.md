@@ -5,6 +5,8 @@
 在Template Method模式中，父类规定处理流程，子类实现具体处理。如果将该模式用于生成实例，就是**Factory Method模式**。
 
 ## 示例程序
+
+```Java
     // Product.java
     package framework;
     public abstract class Product {
@@ -77,7 +79,8 @@
             card3.use();
         }
     }
-    
+ ```
+   
     //运行结果
     制作小明的ID卡。
     制作小红的ID卡。
