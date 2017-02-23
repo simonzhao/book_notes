@@ -121,7 +121,7 @@
 	}
 	
 ### Main类
-
+···java
 	public class Main {
 		public static void main(String[] args){
 			Display d1 = new Display( new StringDisplayImpl("Hello, China."));
@@ -134,6 +134,7 @@
 			d3.multiDisplay(5);
 		}
 	}
+```
 	
 	输出：
 	+-------------+
