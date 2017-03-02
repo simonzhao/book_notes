@@ -6,6 +6,7 @@
 
 ## 示例程序
 
+	
 	```java
 	//Entry.java
 	public abstract class Entry {
@@ -23,6 +24,7 @@
 		}
 	}
 	```
+	
 ### Visitor类
 
 	```java
