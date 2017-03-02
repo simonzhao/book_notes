@@ -5,46 +5,17 @@
 在Visitor模式中，**数据结构与处理被分离开**。
 
 ## 示例程序
-
-	
-	```java
-	//Entry.java
-	public abstract class Entry {
-		public abstract String getName();
-		public abstract int getSize();
-		public Entry add(Entry entry) throws FileTreatmentException {
-			throw new FileTreatmentException();
-		}
-		public void printList(){
-			printList("");
-		}
-		protected abstract void printList(String prefix);
-		public String toString() {
-			return getName() + " (" + getSize() + ")";
-		}
-	}
-	```
-	
 ### Visitor类
 
-	```java
-	
+    ```java
 	//Visitor.java
 	public abstract class Visitor {
 		public abstract void visit(File file);
 		public abstract void visit(Directory directory);
 	}
 	
-	```
+    ```
 	
-
-	```java
-	//Visitor.java
-	public abstract class Visitor {
-		public abstract void visit(File file);
-		public abstract void visit(Directory directory);
-	}
-	```
 ### Element接口
 	```java
 	//Element.java
