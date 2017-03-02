@@ -132,6 +132,7 @@
 	}
 	```
 ### Main类
+		
 		```java
 		//Main.java
 		public class Main {
