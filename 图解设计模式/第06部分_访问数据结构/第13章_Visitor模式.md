@@ -8,11 +8,13 @@
 ### Visitor类
 
 	```java
+	
 	//Visitor.java
 	public abstract class Visitor {
 		public abstract void visit(File file);
 		public abstract void visit(Directory directory);
 	}
+	
 	```
 ### Element接口
 	```java
