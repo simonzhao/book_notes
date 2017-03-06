@@ -150,12 +150,17 @@ public class Main {
 
 ## 相关设计模式
 * Abstract Factory模式
+	
 	生成复杂实例时的Facade模式。因为它提供了“要生成这个实例只需要调用这个方法就OK了”的简单接口。
 	
 * Singleton模式
+	
 	有时会采用Singleton模式创建Facade角色。
 	
 * Mediator模式
+	
 	Facade角色单方面的使用其他角色来提供高层接口。
+	
 	Mediator模式中的Mediator角色作为Colleague角色间的仲裁者负责调停。
+	
 	**Facade模式是单向的，Mediator角色是双向的。**
