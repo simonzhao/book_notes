@@ -6,7 +6,7 @@
 ## 示例程序
 ### Database类
 	
-	```java
+	```Java
 	// pagemaker/Database.java
 	package pagemaker;
 	import java.io.FileInputStream;
