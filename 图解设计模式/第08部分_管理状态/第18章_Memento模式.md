@@ -44,6 +44,8 @@ public class Memento {
 }
 ```
 ### Gamer类
+
+```Java
 //game/Gamer.java
 package game;
 import java.util.*;
@@ -110,6 +112,8 @@ public class Gamer {
 		return prefix + fruitsname[ random.nextInt(fruitsname.length) ];
 	}
 }
+```
+
 ### Main类
 ```java
 //Main.java
